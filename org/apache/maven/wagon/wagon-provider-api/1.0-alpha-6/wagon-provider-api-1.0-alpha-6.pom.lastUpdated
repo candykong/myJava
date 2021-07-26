@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jul 23 10:48:49 CST 2021
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.apache.maven.wagon\:wagon-provider-api\:pom\:1.0-alpha-6 from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom, status\: 401 Unauthorized
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1627008529405
+@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1627008529193

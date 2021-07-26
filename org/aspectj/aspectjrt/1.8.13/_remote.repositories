@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 26 09:52:57 CST 2021
+aspectjrt-1.8.13.jar>mvn-repo=
+aspectjrt-1.8.13.pom>mvn-repo=

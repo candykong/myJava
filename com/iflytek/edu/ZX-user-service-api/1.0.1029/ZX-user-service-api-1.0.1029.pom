@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.iflytek.edu</groupId>
+		<artifactId>ZX-root</artifactId>
+		<version>1.0.1002</version>
+	</parent>
+	<artifactId>ZX-user-service-api</artifactId>
+	<version>1.0.1029</version>
+	<packaging>jar</packaging>
+
+	<description>
+		用户扩展服务层api，定义领域模型，定义对外服务接口。
+	</description>
+
+	<scm>
+		<connection>scm:svn:https://svn.iflytek.com:8888/svn/EPD_zxw_jcfw/Tags/CodeBase/services/user-api/1.0.1029</connection>
+		<developerConnection>scm:svn:https://svn.iflytek.com:8888/svn/EPD_zxw_jcfw/Tags/CodeBase/services/user-api/1.0.1029</developerConnection>
+		<url>scm:svn:https://svn.iflytek.com:8888/svn/EPD_zxw_jcfw/Tags/CodeBase/services/user-api/1.0.1029</url>
+	</scm>
+	
+	
+	
+	<properties>
+		<common.version>1.80</common.version>
+	</properties>
+	
+	<dependencies>
+	  <dependency>
+			<groupId>com.iflytek.edu</groupId>
+			<artifactId>ELP-common</artifactId>
+			<version>${common.version}</version>
+			<exclusions>
+				<exclusion>
+            		<groupId>org.apache.httpcomponents</groupId>
+            		<artifactId>httpclient</artifactId>
+            	</exclusion>
+            	<exclusion>
+            		<groupId>org.apache.httpcomponents</groupId>
+            		<artifactId>httpcore</artifactId>
+            	</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<tagBase>https://svn.iflytek.com:8888/svn/EPD_zxw_jcfw/Tags/CodeBase/services/user-api</tagBase>
+					<goals>deploy</goals>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<version>2.9.1</version>
+				<configuration>
+					<configLocation>../../checkstyle/checkstyle.xml</configLocation>
+					<includeTestSourceDirectory>true</includeTestSourceDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

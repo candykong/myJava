@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jul 23 10:49:30 CST 2021
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.apache.maven\:maven-model\:jar\:2.0.4 from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/org/apache/maven/maven-model/2.0.4/maven-model-2.0.4.jar, status\: 401 Unauthorized
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1627008570573
+@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1627008568247

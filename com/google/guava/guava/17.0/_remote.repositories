@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jul 23 10:47:03 CST 2021
+guava-17.0.jar>mvn-repo=
+guava-17.0.pom>mvn-repo=
